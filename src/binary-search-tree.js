@@ -8,8 +8,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  */
 module.exports = class BinarySearchTree {
   root() {
-    throw new NotImplementedError("Not implemented");
-    // remove line with error and write your code here
+    
   }
 
   add(/* data */) {
