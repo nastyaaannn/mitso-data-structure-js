@@ -90,7 +90,7 @@ module.exports = class BinarySearchTree {
 
   remove(data)
   {
-    this.root = this.removeNode(this.root_node, data); // helper method below
+    return this.root_node = this.removeNode(this.root_node, data); // helper method below
   }
 
   removeNode(node, data) 
